@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+
+.container {
+    width: 100%;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+body {
+    position: relative;
+    background: #fff;
+    color: #515978;
+}
+
+.bg {
+    width: 100%;
+    height: 130vh;
+    background-color: #02042b;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+li {
+    list-style: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.dropdown-menu {
+    padding-top: 10px !important;
+    width: 960px !important;
+    height: 485px !important;
+}
+
+.dropdown {
+    position: static !important;
+}
+
+.dropdown .product span {
+    text-shadow: 0 0 0 #528ff0 !important;
+    color: #528ff0 !important;
+}
+
+.bg {
+    background-color: #02042b !important;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/new1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* clip-path: polygon(100% 0%, 100% 98%, 90% 100%, 0 95%, 0 0%); */
+    clip-path: polygon(100% 0%, 100% 85%, 90% 100%, 0 92%, 0 0%);
+    position: relative;
+}
+
+.title {
+    color: #528ff0;
+    font-family: Muli, sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    line-height: 33px;
+    text-transform: uppercase;
+}
+
+.title:after {
+    content: "";
+    display: block;
+    width: 18px;
+    height: 3px;
+    background: #49dab5;
+    margin-top: 10px;
+}
+
+.title {
+    padding-left: 10px !important;
+}
+
+.desc {
+    padding-top: 10px;
+    padding-left: 10px !important;
+}
+
+#nav .nav-item {
+    display: inline-block;
+    padding: 7px 16px;
+    margin-top: 0px;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 15px;
+}
+
+.hiring:hover {
+    border-bottom: 3px solid white !important;
+    background-color: #0a0c32 !important;
+}
+
+.log-in:hover {
+    border-bottom: none !important;
+    background-color: #0a0c32 !important;
+}
+
+#nav h4 {
+    margin-top: 4px !important;
+}
+
+#nav h4 {
+    color: #808599 !important;
+    font-size: 12px !important;
+    letter-spacing: 0.86px !important;
+    border-right: 1px solid lightgrey;
+}
+
+#nav .link {
+    font-weight: bold;
+    letter-spacing: -0.1px;
+    color: #515978;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 0;
+    display: inline;
+}
+
+.dropdown-menu {
+    margin-left: -48px !important;
+}
+
+#nav p {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.54);
+    letter-spacing: -0.2px;
+    font-weight: lighter !important;
+}
+
+.banking ul li {
+    padding: 10px 10px;
+}
+
+.more ul li {
+    padding: 10px 10px;
+}
+
+.more {
+    font-size: 13px;
+    font-weight: 600 !important;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.86px;
+    color: #515978;
+}
+
+
+/* 
+.more ul li:hover {
+    color: #528ff0;
+} */
+
+.header-section {
+    width: 100%;
+    height: inherit;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 50% !important;
+    left: 0%;
+}
+
+.center-div {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.header-buttons a {
+    border: 1px solid #32ab5b;
+    padding: 8px 8px;
+    outline: none;
+    background-color: #528ff0;
+    color: white;
+    box-shadow: 0 0 5px 0;
+}
+
+.card {
+    background-color: #04093f !important;
+    background-image: url(../images/accept-payments-bg.svg) !important;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: all 1s ease-in-out;
+    -ms-transform: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -webkit-transform: all 1s ease-in-out;
+}
+
+.card:hover {
+    width: 100%;
+    height: auto;
+    background-image: url(../images/accept-payments-dark-bg.svg) !important;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+
+.card img {
+    margin-left: -135px !important;
+    margin-top: 200px;
+}
+
+.card-text {
+    color: rgba(214, 219, 241, 0.9);
+}
+
+.card-title {
+    color: white;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 30px;
+    margin-top: 20px;
+}
